@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 15 18:34:44 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>863 seconds (863797 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='pom.irctc.testcases.TC007.FacebookSignUp()'><b>FacebookSignUp</b><br>Test class: pom.irctc.testcases.TC007<br>Parameters: Murali, Krishnan, student001@gmail.com, student001@gmail.com, India123, 1, Jul, 1995</td>
+<td></td>
+<td>7</td>
+<td>pom.irctc.testcases.TC007@66a3ffec</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC007.FacebookSignUp()'><b>FacebookSignUp</b><br>Test class: pom.irctc.testcases.TC007<br>Parameters: Glenn, Maxwell, student002@gmail.com, student002@gmail.com, India456, 4, Feb, 1998</td>
+<td></td>
+<td>7</td>
+<td>pom.irctc.testcases.TC007@66a3ffec</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC007.FacebookSignUp()'><b>FacebookSignUp</b><br>Test class: pom.irctc.testcases.TC007<br>Parameters: Steven, Smith, student003@gmail.com, student003@gmail.com, India789, 14, May, 1983</td>
+<td></td>
+<td>7</td>
+<td>pom.irctc.testcases.TC007@66a3ffec</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC006.IndianFrro()'><b>IndianFrro</b><br>Test class: pom.irctc.testcases.TC006<br>Parameters: TestUser01, Secret@123, Secret@123,  What is the name of your favorite book?, Alchemist, Muralikrishnan, Male, 01/07/1995, Student, student001@gmail.com, 9234567890, 4567890, INDIA, Murali, 3, No 141, MG Road,,  PUDUCHERRY,  PONDICHERRY AND AUREVILLE     ,  Individual House, Five Star, student001@gmail.com, 9234567890, 4567890, Murali, No 141, MG Road,, PUDUCHERRY, 9C, student001@gmail.com, 4567890, 9234567890, Krishnan, No 123 GM Road, PUDUCHERRY, 9C, student002@gmail.com, 4567890, 9234567890, Kumar, No 212 Mission Road, PUDUCHERRY, 9C, student003@gmail.com, 4567890, 9234567890</td>
+<td></td>
+<td>95</td>
+<td>pom.irctc.testcases.TC006@26653222</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC006.IndianFrro()'><b>IndianFrro</b><br>Test class: pom.irctc.testcases.TC006<br>Parameters: TestUser02, India@123, India@123,  What is the name of your favorite book?, Alchemist, Ravichandran , Male, 02/07/1995, Student, student002@gmail.com, 9234567890, 4567890, INDIA, Ravi, 3, No 121, GM Road,,  PUDUCHERRY,  PONDICHERRY AND AUREVILLE     ,  Individual House, Five Star, student002@gmail.com, 9234567890, 4567890, Ravi, No 121, GM Road,, PUDUCHERRY, 9C, student001@gmail.com, 4567890, 9234567890, Krishnan, No 123 GM Road, PUDUCHERRY, 9C, student002@gmail.com, 4567890, 9234567890, Kumar, No 212 Mission Road, PUDUCHERRY, 9C, student003@gmail.com, 4567890, 9234567890</td>
+<td></td>
+<td>92</td>
+<td>pom.irctc.testcases.TC006@26653222</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC006.IndianFrro()'><b>IndianFrro</b><br>Test class: pom.irctc.testcases.TC006<br>Parameters: TestUSer03, India@123, India@123,  What is the name of your favorite book?, Alchemist, Ashwin, Male, 03/07/1995, Student, student003@gmail.com, 9234567890, 4567890, INDIA, Ashwin, 3, No 128, Misson Road,,  PUDUCHERRY,  PONDICHERRY AND AUREVILLE     ,  Individual House, Five Star, student003@gmail.com, 9234567890, 4567890, Ashwin, No 128, Misson Road,, PUDUCHERRY, 9C, student001@gmail.com, 4567890, 9234567890, Krishnan, No 123 GM Road, PUDUCHERRY, 9C, student002@gmail.com, 4567890, 9234567890, Kumar, No 212 Mission Road, PUDUCHERRY, 9C, student003@gmail.com, 4567890, 9234567890</td>
+<td></td>
+<td>92</td>
+<td>pom.irctc.testcases.TC006@26653222</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC005.IrctcBookHotelsGstValidation()'><b>IrctcBookHotelsGstValidation</b><br>Test class: pom.irctc.testcases.TC005</td>
+<td></td>
+<td>64</td>
+<td>pom.irctc.testcases.TC005@3532ec19</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC004.IrctcBookHotelsOtpValidation()'><b>IrctcBookHotelsOtpValidation</b><br>Test class: pom.irctc.testcases.TC004</td>
+<td></td>
+<td>62</td>
+<td>pom.irctc.testcases.TC004@68c4039c</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC002.IrctcBookYourCoach()'><b>IrctcBookYourCoach</b><br>Test class: pom.irctc.testcases.TC002</td>
+<td></td>
+<td>44</td>
+<td>pom.irctc.testcases.TC002@59f99ea</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC001.IrctcRegistration()'><b>IrctcRegistration</b><br>Test class: pom.irctc.testcases.TC001</td>
+<td></td>
+<td>25</td>
+<td>pom.irctc.testcases.TC001@27efef64</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC003.IrctcSaloonMandatoryCheck()'><b>IrctcSaloonMandatoryCheck</b><br>Test class: pom.irctc.testcases.TC003</td>
+<td></td>
+<td>21</td>
+<td>pom.irctc.testcases.TC003@ae45eb6</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC008.OnlineUsVisaAppy()'><b>OnlineUsVisaAppy</b><br>Test class: pom.irctc.testcases.TC008<br>Parameters: Muralikrishnan, Murali, MURALIKRISHNAN, Max, Krishnan, Student001@gmail.com, Student001@gmail.com, murali@gmail.com, 1995, July, Pondicherry, Pondicherry, India, India, No120 MG Road, Kamaraj Salai, Pondicherry, Pondicherry, 605001, 8870042519, India, Pondicherry</td>
+<td></td>
+<td>23</td>
+<td>pom.irctc.testcases.TC008@3e6fa38a</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC008.OnlineUsVisaAppy()'><b>OnlineUsVisaAppy</b><br>Test class: pom.irctc.testcases.TC008<br>Parameters: Logeshwaran, Logesh, LOGESHWARAN, Log, Waran, Student002@gmail.com, Student002@gmail.com, logesh@gmail.com, 1999, April, Pondicherry, Pondicherry, India, India, No121 GM Road, Kamaraj Salai, Pondicherry, Pondicherry, 605001, 9887965421, India, Pondicherry</td>
+<td></td>
+<td>23</td>
+<td>pom.irctc.testcases.TC008@3e6fa38a</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC008.OnlineUsVisaAppy()'><b>OnlineUsVisaAppy</b><br>Test class: pom.irctc.testcases.TC008<br>Parameters: Smith, Smith, STEVEN SMITH, Stev, Steven, Student003@gmail.com, Student003@gmail.com, smith@gmail.com, 1989, September, Pondicherry, Pondicherry, India, India, No122 MG Road, Kamaraj Salai, Pondicherry, Pondicherry, 605001, 9558774123, India, Pondicherry</td>
+<td></td>
+<td>22</td>
+<td>pom.irctc.testcases.TC008@3e6fa38a</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC009.PanApply()'><b>PanApply</b><br>Test class: pom.irctc.testcases.TC009<br>Parameters: MR., Murali, Max, Krishnan, Ganesan, Deiva, Nayagam, 8870042519, student001@gmail.com, Salary, 01071995, No17 First cross, Kamaraj Salai, Pondicherry, Puducherry, 605001, INDIA, Aadhar Card issued by UIDAI(In Copy), VOTER ID card which is having complete Date of Birth (In Copy), Matriculation certificate or mark sheet of recognised board (In Copy), Copy of Aadhaar Card / Letter</td>
+<td></td>
+<td>10</td>
+<td>pom.irctc.testcases.TC009@47c62251</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC009.PanApply()'><b>PanApply</b><br>Test class: pom.irctc.testcases.TC009<br>Parameters: MR., Bhuvaneshwar, Bhuvi, Kumar, Praveen, Piku, Kumar, 9875465231, student002@gmail.com, Salary, 15051996, No19 Third cross, Mission Street, Pondicherry, Puducherry, 605001, INDIA, Aadhar Card issued by UIDAI(In Copy), VOTER ID card which is having complete Date of Birth (In Copy), Matriculation certificate or mark sheet of recognised board (In Copy), Copy of Aadhaar Card / Letter</td>
+<td></td>
+<td>10</td>
+<td>pom.irctc.testcases.TC009@47c62251</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC009.PanApply()'><b>PanApply</b><br>Test class: pom.irctc.testcases.TC009<br>Parameters: MR., Ravichandran, Ravi, Ashwin, Bishen, Singh, Bedi, 9845563215, student003@gmail.com, Salary, 07091999, No120 Fourth cross, Anna Salai, Pondicherry, Puducherry, 605001, INDIA, Aadhar Card issued by UIDAI(In Copy), VOTER ID card which is having complete Date of Birth (In Copy), Matriculation certificate or mark sheet of recognised board (In Copy), Copy of Aadhaar Card / Letter</td>
+<td></td>
+<td>10</td>
+<td>pom.irctc.testcases.TC009@47c62251</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC010.PhpTravelsRegister()'><b>PhpTravelsRegister</b><br>Test class: pom.irctc.testcases.TC010<br>Parameters: Murali, Krishnan, student001@gmail.com, 8870042519, Testing Pvt., Ltd, No 17, First cross, Kamaraj salai, Pondicherry, Pondicherry, 605001, IN, Advertisement, 8870042519, P%ssword1234, P%ssword1234</td>
+<td></td>
+<td>9</td>
+<td>pom.irctc.testcases.TC010@6f7fd0e6</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC010.PhpTravelsRegister()'><b>PhpTravelsRegister</b><br>Test class: pom.irctc.testcases.TC010<br>Parameters: Bhuvnesh, Kumar, student002@gmail.com, 9856562345, Testing Pvt., Ltd, No 17, First cross, Kamaraj salai, Pondicherry, Pondicherry, 605001, IN, Advertisement, 9856230235, P%ssword1234, P%ssword1234</td>
+<td></td>
+<td>10</td>
+<td>pom.irctc.testcases.TC010@6f7fd0e6</td></tr>
+<tr>
+<td title='pom.irctc.testcases.TC010.PhpTravelsRegister()'><b>PhpTravelsRegister</b><br>Test class: pom.irctc.testcases.TC010<br>Parameters: Ravi, Ashwin, student003@gmail.com, 9656231245, Testing Pvt., Ltd, No 17, First cross, Kamaraj salai, Pondicherry, Pondicherry, 605001, IN, Advertisement, 9845336577, P%ssword1234, P%ssword1234</td>
+<td></td>
+<td>10</td>
+<td>pom.irctc.testcases.TC010@6f7fd0e6</td></tr>
+</table><p>
+</body>
+</html>

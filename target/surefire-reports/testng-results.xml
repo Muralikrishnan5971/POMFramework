@@ -1,0 +1,2047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="36" total="56" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="863797" started-at="2021-02-15T13:04:44Z" finished-at="2021-02-15T13:19:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="863797" started-at="2021-02-15T13:04:44Z" finished-at="2021-02-15T13:19:08Z">
+      <class name="pom.irctc.testcases.TC004">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:pom.irctc.testcases.TC004@68c4039c]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-02-15T13:11:01Z" finished-at="2021-02-15T13:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC004@68c4039c]" name="launchApp" is-config="true" duration-ms="8565" started-at="2021-02-15T13:11:01Z" finished-at="2021-02-15T13:11:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="IrctcBookHotelsOtpValidation()[pri:0, instance:pom.irctc.testcases.TC004@68c4039c]" name="IrctcBookHotelsOtpValidation" duration-ms="62012" started-at="2021-02-15T13:11:10Z" finished-at="2021-02-15T13:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IrctcBookHotelsOtpValidation -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC004@68c4039c]" name="closeApp" is-config="true" duration-ms="791" started-at="2021-02-15T13:12:12Z" finished-at="2021-02-15T13:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:pom.irctc.testcases.TC004@68c4039c]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-02-15T13:12:13Z" finished-at="2021-02-15T13:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- pom.irctc.testcases.TC004 -->
+      <class name="pom.irctc.testcases.TC003">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:pom.irctc.testcases.TC003@ae45eb6]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-02-15T13:12:13Z" finished-at="2021-02-15T13:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC003@ae45eb6]" name="launchApp" is-config="true" duration-ms="7220" started-at="2021-02-15T13:12:13Z" finished-at="2021-02-15T13:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="IrctcSaloonMandatoryCheck()[pri:0, instance:pom.irctc.testcases.TC003@ae45eb6]" name="IrctcSaloonMandatoryCheck" duration-ms="21044" started-at="2021-02-15T13:12:20Z" finished-at="2021-02-15T13:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IrctcSaloonMandatoryCheck -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC003@ae45eb6]" name="closeApp" is-config="true" duration-ms="747" started-at="2021-02-15T13:12:41Z" finished-at="2021-02-15T13:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:pom.irctc.testcases.TC003@ae45eb6]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-02-15T13:12:42Z" finished-at="2021-02-15T13:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- pom.irctc.testcases.TC003 -->
+      <class name="pom.irctc.testcases.TC002">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC002@59f99ea]" name="launchApp" is-config="true" duration-ms="33076" started-at="2021-02-15T13:12:42Z" finished-at="2021-02-15T13:13:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:pom.irctc.testcases.TC002@59f99ea]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-02-15T13:12:42Z" finished-at="2021-02-15T13:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="IrctcBookYourCoach()[pri:0, instance:pom.irctc.testcases.TC002@59f99ea]" name="IrctcBookYourCoach" duration-ms="44652" started-at="2021-02-15T13:13:15Z" finished-at="2021-02-15T13:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IrctcBookYourCoach -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC002@59f99ea]" name="closeApp" is-config="true" duration-ms="722" started-at="2021-02-15T13:14:00Z" finished-at="2021-02-15T13:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:pom.irctc.testcases.TC002@59f99ea]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-02-15T13:14:00Z" finished-at="2021-02-15T13:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- pom.irctc.testcases.TC002 -->
+      <class name="pom.irctc.testcases.TC001">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC001@27efef64]" name="launchApp" is-config="true" duration-ms="37736" started-at="2021-02-15T13:14:00Z" finished-at="2021-02-15T13:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:pom.irctc.testcases.TC001@27efef64]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-02-15T13:14:00Z" finished-at="2021-02-15T13:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="IrctcRegistration()[pri:0, instance:pom.irctc.testcases.TC001@27efef64]" name="IrctcRegistration" duration-ms="25903" started-at="2021-02-15T13:14:38Z" finished-at="2021-02-15T13:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IrctcRegistration -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC001@27efef64]" name="closeApp" is-config="true" duration-ms="805" started-at="2021-02-15T13:15:04Z" finished-at="2021-02-15T13:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:pom.irctc.testcases.TC001@27efef64]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-02-15T13:15:05Z" finished-at="2021-02-15T13:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- pom.irctc.testcases.TC001 -->
+      <class name="pom.irctc.testcases.TC008">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:pom.irctc.testcases.TC008@3e6fa38a]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-02-15T13:16:57Z" finished-at="2021-02-15T13:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC008@3e6fa38a]" name="launchApp" is-config="true" duration-ms="6722" started-at="2021-02-15T13:16:57Z" finished-at="2021-02-15T13:17:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="OnlineUsVisaAppy(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.irctc.testcases.TC008@3e6fa38a]" name="OnlineUsVisaAppy" duration-ms="23510" started-at="2021-02-15T13:17:04Z" data-provider="fetchData" finished-at="2021-02-15T13:17:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Muralikrishnan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Murali]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MURALIKRISHNAN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Max]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Krishnan]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Student001@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Student001@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[murali@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1995]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[July]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[No120 MG Road]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Kamaraj Salai]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[605001]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[8870042519]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnlineUsVisaAppy -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC008@3e6fa38a]" name="closeApp" is-config="true" duration-ms="646" started-at="2021-02-15T13:17:27Z" finished-at="2021-02-15T13:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC008@3e6fa38a]" name="launchApp" is-config="true" duration-ms="6340" started-at="2021-02-15T13:17:28Z" finished-at="2021-02-15T13:17:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="OnlineUsVisaAppy(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.irctc.testcases.TC008@3e6fa38a]" name="OnlineUsVisaAppy" duration-ms="23146" started-at="2021-02-15T13:17:34Z" data-provider="fetchData" finished-at="2021-02-15T13:17:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Logeshwaran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Logesh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LOGESHWARAN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Log]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Waran]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Student002@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Student002@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[logesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1999]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[No121 GM Road]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Kamaraj Salai]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[605001]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[9887965421]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnlineUsVisaAppy -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC008@3e6fa38a]" name="closeApp" is-config="true" duration-ms="650" started-at="2021-02-15T13:17:57Z" finished-at="2021-02-15T13:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC008@3e6fa38a]" name="launchApp" is-config="true" duration-ms="5754" started-at="2021-02-15T13:17:58Z" finished-at="2021-02-15T13:18:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="OnlineUsVisaAppy(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.irctc.testcases.TC008@3e6fa38a]" name="OnlineUsVisaAppy" duration-ms="22988" started-at="2021-02-15T13:18:04Z" data-provider="fetchData" finished-at="2021-02-15T13:18:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[STEVEN SMITH]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Stev]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Steven]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Student003@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Student003@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[smith@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1989]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[September]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[No122 MG Road]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Kamaraj Salai]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[605001]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[9558774123]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnlineUsVisaAppy -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC008@3e6fa38a]" name="closeApp" is-config="true" duration-ms="646" started-at="2021-02-15T13:18:27Z" finished-at="2021-02-15T13:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:pom.irctc.testcases.TC008@3e6fa38a]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-02-15T13:18:27Z" finished-at="2021-02-15T13:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- pom.irctc.testcases.TC008 -->
+      <class name="pom.irctc.testcases.TC007">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:pom.irctc.testcases.TC007@66a3ffec]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-02-15T13:18:27Z" finished-at="2021-02-15T13:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC007@66a3ffec]" name="launchApp" is-config="true" duration-ms="5227" started-at="2021-02-15T13:18:28Z" finished-at="2021-02-15T13:18:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="FacebookSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.irctc.testcases.TC007@66a3ffec]" name="FacebookSignUp" duration-ms="7544" started-at="2021-02-15T13:18:33Z" data-provider="fetchData" finished-at="2021-02-15T13:18:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Murali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Krishnan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[student001@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[student001@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[India123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Jul]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1995]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FacebookSignUp -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC007@66a3ffec]" name="closeApp" is-config="true" duration-ms="959" started-at="2021-02-15T13:18:40Z" finished-at="2021-02-15T13:18:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC007@66a3ffec]" name="launchApp" is-config="true" duration-ms="4781" started-at="2021-02-15T13:18:41Z" finished-at="2021-02-15T13:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="FacebookSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.irctc.testcases.TC007@66a3ffec]" name="FacebookSignUp" duration-ms="7623" started-at="2021-02-15T13:18:46Z" data-provider="fetchData" finished-at="2021-02-15T13:18:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Glenn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maxwell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[student002@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[student002@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[India456]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Feb]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1998]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FacebookSignUp -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC007@66a3ffec]" name="closeApp" is-config="true" duration-ms="680" started-at="2021-02-15T13:18:54Z" finished-at="2021-02-15T13:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC007@66a3ffec]" name="launchApp" is-config="true" duration-ms="4797" started-at="2021-02-15T13:18:54Z" finished-at="2021-02-15T13:18:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="FacebookSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.irctc.testcases.TC007@66a3ffec]" name="FacebookSignUp" duration-ms="7709" started-at="2021-02-15T13:18:59Z" data-provider="fetchData" finished-at="2021-02-15T13:19:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Steven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[student003@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[student003@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[India789]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1983]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FacebookSignUp -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC007@66a3ffec]" name="closeApp" is-config="true" duration-ms="1251" started-at="2021-02-15T13:19:07Z" finished-at="2021-02-15T13:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:pom.irctc.testcases.TC007@66a3ffec]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-02-15T13:19:08Z" finished-at="2021-02-15T13:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- pom.irctc.testcases.TC007 -->
+      <class name="pom.irctc.testcases.TC006">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:pom.irctc.testcases.TC006@26653222]" name="beforeSuite" is-config="true" duration-ms="148" started-at="2021-02-15T13:04:44Z" finished-at="2021-02-15T13:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pom.irctc.testcases.TC006@26653222]" name="beforeTest" is-config="true" duration-ms="55" started-at="2021-02-15T13:04:44Z" finished-at="2021-02-15T13:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:pom.irctc.testcases.TC006@26653222]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-02-15T13:04:44Z" finished-at="2021-02-15T13:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC006@26653222]" name="launchApp" is-config="true" duration-ms="11497" started-at="2021-02-15T13:04:45Z" finished-at="2021-02-15T13:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="IndianFrro(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.irctc.testcases.TC006@26653222]" name="IndianFrro" duration-ms="95050" started-at="2021-02-15T13:04:57Z" data-provider="fetchData" finished-at="2021-02-15T13:06:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Secret@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Secret@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ What is the name of your favorite book?]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Alchemist]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Muralikrishnan]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/07/1995]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Student]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[student001@gmail.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[9234567890]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[4567890]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Murali]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[No 141, MG Road,]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[ PUDUCHERRY]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[ PONDICHERRY AND AUREVILLE     ]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[ Individual House]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Five Star]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[student001@gmail.com]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[9234567890]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[4567890]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Murali]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[No 141, MG Road,]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[PUDUCHERRY]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[9C]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[student001@gmail.com]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[4567890]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[9234567890]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[Krishnan]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[No 123 GM Road]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[PUDUCHERRY]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[9C]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[student002@gmail.com]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[4567890]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[9234567890]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[No 212 Mission Road]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[PUDUCHERRY]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[9C]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[student003@gmail.com]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[4567890]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[9234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IndianFrro -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC006@26653222]" name="closeApp" is-config="true" duration-ms="708" started-at="2021-02-15T13:06:32Z" finished-at="2021-02-15T13:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC006@26653222]" name="launchApp" is-config="true" duration-ms="4527" started-at="2021-02-15T13:06:32Z" finished-at="2021-02-15T13:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="IndianFrro(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.irctc.testcases.TC006@26653222]" name="IndianFrro" duration-ms="92203" started-at="2021-02-15T13:06:37Z" data-provider="fetchData" finished-at="2021-02-15T13:08:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ What is the name of your favorite book?]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Alchemist]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ravichandran ]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[02/07/1995]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Student]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[student002@gmail.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[9234567890]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[4567890]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Ravi]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[No 121, GM Road,]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[ PUDUCHERRY]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[ PONDICHERRY AND AUREVILLE     ]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[ Individual House]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Five Star]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[student002@gmail.com]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[9234567890]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[4567890]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Ravi]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[No 121, GM Road,]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[PUDUCHERRY]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[9C]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[student001@gmail.com]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[4567890]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[9234567890]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[Krishnan]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[No 123 GM Road]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[PUDUCHERRY]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[9C]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[student002@gmail.com]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[4567890]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[9234567890]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[No 212 Mission Road]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[PUDUCHERRY]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[9C]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[student003@gmail.com]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[4567890]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[9234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IndianFrro -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC006@26653222]" name="closeApp" is-config="true" duration-ms="786" started-at="2021-02-15T13:08:09Z" finished-at="2021-02-15T13:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC006@26653222]" name="launchApp" is-config="true" duration-ms="3547" started-at="2021-02-15T13:08:10Z" finished-at="2021-02-15T13:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="IndianFrro(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.irctc.testcases.TC006@26653222]" name="IndianFrro" duration-ms="92505" started-at="2021-02-15T13:08:14Z" data-provider="fetchData" finished-at="2021-02-15T13:09:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUSer03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ What is the name of your favorite book?]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Alchemist]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ashwin]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[03/07/1995]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Student]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[student003@gmail.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[9234567890]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[4567890]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Ashwin]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[No 128, Misson Road,]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[ PUDUCHERRY]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[ PONDICHERRY AND AUREVILLE     ]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[ Individual House]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Five Star]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[student003@gmail.com]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[9234567890]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[4567890]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Ashwin]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[No 128, Misson Road,]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[PUDUCHERRY]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[9C]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[student001@gmail.com]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[4567890]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[9234567890]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[Krishnan]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[No 123 GM Road]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[PUDUCHERRY]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[9C]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[student002@gmail.com]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[4567890]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[9234567890]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[No 212 Mission Road]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[PUDUCHERRY]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[9C]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[student003@gmail.com]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[4567890]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[9234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IndianFrro -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC006@26653222]" name="closeApp" is-config="true" duration-ms="681" started-at="2021-02-15T13:09:46Z" finished-at="2021-02-15T13:09:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:pom.irctc.testcases.TC006@26653222]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-02-15T13:09:47Z" finished-at="2021-02-15T13:09:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:pom.irctc.testcases.TC006@26653222]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-02-15T13:19:08Z" finished-at="2021-02-15T13:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:pom.irctc.testcases.TC006@26653222]" name="afterSuite" is-config="true" duration-ms="989" started-at="2021-02-15T13:19:08Z" finished-at="2021-02-15T13:19:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- pom.irctc.testcases.TC006 -->
+      <class name="pom.irctc.testcases.TC005">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:pom.irctc.testcases.TC005@3532ec19]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-02-15T13:09:47Z" finished-at="2021-02-15T13:09:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC005@3532ec19]" name="launchApp" is-config="true" duration-ms="9456" started-at="2021-02-15T13:09:47Z" finished-at="2021-02-15T13:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="IrctcBookHotelsGstValidation()[pri:0, instance:pom.irctc.testcases.TC005@3532ec19]" name="IrctcBookHotelsGstValidation" duration-ms="64406" started-at="2021-02-15T13:09:56Z" finished-at="2021-02-15T13:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IrctcBookHotelsGstValidation -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC005@3532ec19]" name="closeApp" is-config="true" duration-ms="835" started-at="2021-02-15T13:11:01Z" finished-at="2021-02-15T13:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:pom.irctc.testcases.TC005@3532ec19]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-02-15T13:11:01Z" finished-at="2021-02-15T13:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- pom.irctc.testcases.TC005 -->
+      <class name="pom.irctc.testcases.TC009">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:pom.irctc.testcases.TC009@47c62251]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-02-15T13:16:08Z" finished-at="2021-02-15T13:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC009@47c62251]" name="launchApp" is-config="true" duration-ms="4942" started-at="2021-02-15T13:16:08Z" finished-at="2021-02-15T13:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="PanApply(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.irctc.testcases.TC009@47c62251]" name="PanApply" duration-ms="10960" started-at="2021-02-15T13:16:13Z" data-provider="fetchData" finished-at="2021-02-15T13:16:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MR.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Murali]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Max]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Krishnan]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ganesan]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Deiva]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Nayagam]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[8870042519]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[student001@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Salary]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[01071995]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[No17 First cross]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Kamaraj Salai]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Puducherry]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[605001]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Aadhar Card issued by UIDAI(In Copy)]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[VOTER ID card which is having complete Date of Birth (In Copy)]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Matriculation certificate or mark sheet of recognised board (In Copy)]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Copy of Aadhaar Card / Letter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PanApply -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC009@47c62251]" name="closeApp" is-config="true" duration-ms="677" started-at="2021-02-15T13:16:24Z" finished-at="2021-02-15T13:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC009@47c62251]" name="launchApp" is-config="true" duration-ms="4707" started-at="2021-02-15T13:16:25Z" finished-at="2021-02-15T13:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="PanApply(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.irctc.testcases.TC009@47c62251]" name="PanApply" duration-ms="10824" started-at="2021-02-15T13:16:29Z" data-provider="fetchData" finished-at="2021-02-15T13:16:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MR.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bhuvaneshwar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bhuvi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Praveen]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Piku]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9875465231]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[student002@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Salary]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[15051996]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[No19 Third cross]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Mission Street]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Puducherry]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[605001]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Aadhar Card issued by UIDAI(In Copy)]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[VOTER ID card which is having complete Date of Birth (In Copy)]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Matriculation certificate or mark sheet of recognised board (In Copy)]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Copy of Aadhaar Card / Letter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PanApply -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC009@47c62251]" name="closeApp" is-config="true" duration-ms="679" started-at="2021-02-15T13:16:40Z" finished-at="2021-02-15T13:16:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC009@47c62251]" name="launchApp" is-config="true" duration-ms="4539" started-at="2021-02-15T13:16:41Z" finished-at="2021-02-15T13:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="PanApply(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.irctc.testcases.TC009@47c62251]" name="PanApply" duration-ms="10810" started-at="2021-02-15T13:16:45Z" data-provider="fetchData" finished-at="2021-02-15T13:16:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MR.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ravichandran]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ravi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ashwin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bishen]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Bedi]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9845563215]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[student003@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Salary]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[07091999]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[No120 Fourth cross]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Anna Salai]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Puducherry]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[605001]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Aadhar Card issued by UIDAI(In Copy)]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[VOTER ID card which is having complete Date of Birth (In Copy)]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Matriculation certificate or mark sheet of recognised board (In Copy)]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Copy of Aadhaar Card / Letter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PanApply -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC009@47c62251]" name="closeApp" is-config="true" duration-ms="655" started-at="2021-02-15T13:16:56Z" finished-at="2021-02-15T13:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:pom.irctc.testcases.TC009@47c62251]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-02-15T13:16:57Z" finished-at="2021-02-15T13:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- pom.irctc.testcases.TC009 -->
+      <class name="pom.irctc.testcases.TC010">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:pom.irctc.testcases.TC010@6f7fd0e6]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-02-15T13:15:05Z" finished-at="2021-02-15T13:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC010@6f7fd0e6]" name="launchApp" is-config="true" duration-ms="16041" started-at="2021-02-15T13:15:05Z" finished-at="2021-02-15T13:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="PhpTravelsRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.irctc.testcases.TC010@6f7fd0e6]" name="PhpTravelsRegister" duration-ms="9843" started-at="2021-02-15T13:15:21Z" data-provider="fetchData" finished-at="2021-02-15T13:15:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Murali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Krishnan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[student001@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8870042519]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Testing Pvt., Ltd]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No 17, First cross]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Kamaraj salai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[605001]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[IN]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Advertisement]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[8870042519]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[P%ssword1234]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[P%ssword1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhpTravelsRegister -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC010@6f7fd0e6]" name="closeApp" is-config="true" duration-ms="674" started-at="2021-02-15T13:15:31Z" finished-at="2021-02-15T13:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC010@6f7fd0e6]" name="launchApp" is-config="true" duration-ms="6693" started-at="2021-02-15T13:15:31Z" finished-at="2021-02-15T13:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="PhpTravelsRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.irctc.testcases.TC010@6f7fd0e6]" name="PhpTravelsRegister" duration-ms="10016" started-at="2021-02-15T13:15:38Z" data-provider="fetchData" finished-at="2021-02-15T13:15:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhuvnesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[student002@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9856562345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Testing Pvt., Ltd]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No 17, First cross]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Kamaraj salai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[605001]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[IN]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Advertisement]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[9856230235]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[P%ssword1234]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[P%ssword1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhpTravelsRegister -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC010@6f7fd0e6]" name="closeApp" is-config="true" duration-ms="1303" started-at="2021-02-15T13:15:48Z" finished-at="2021-02-15T13:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC010@6f7fd0e6]" name="launchApp" is-config="true" duration-ms="7218" started-at="2021-02-15T13:15:49Z" finished-at="2021-02-15T13:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="PhpTravelsRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.irctc.testcases.TC010@6f7fd0e6]" name="PhpTravelsRegister" duration-ms="10505" started-at="2021-02-15T13:15:57Z" data-provider="fetchData" finished-at="2021-02-15T13:16:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ashwin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[student003@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9656231245]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Testing Pvt., Ltd]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No 17, First cross]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Kamaraj salai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Pondicherry]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[605001]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[IN]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Advertisement]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[9845336577]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[P%ssword1234]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[P%ssword1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhpTravelsRegister -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC010@6f7fd0e6]" name="closeApp" is-config="true" duration-ms="824" started-at="2021-02-15T13:16:07Z" finished-at="2021-02-15T13:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:pom.irctc.testcases.TC010@6f7fd0e6]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-02-15T13:16:08Z" finished-at="2021-02-15T13:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- pom.irctc.testcases.TC010 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

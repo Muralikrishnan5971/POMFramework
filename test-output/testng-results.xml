@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="66440" started-at="2021-02-19T08:31:11Z" finished-at="2021-02-19T08:32:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="66440" started-at="2021-02-19T08:31:11Z" finished-at="2021-02-19T08:32:17Z">
+      <class name="pom.irctc.testcases.TC007">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:pom.irctc.testcases.TC007@5ec0a365]" name="beforeSuite" is-config="true" duration-ms="156" started-at="2021-02-19T08:31:11Z" finished-at="2021-02-19T08:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pom.irctc.testcases.TC007@5ec0a365]" name="beforeTest" is-config="true" duration-ms="32" started-at="2021-02-19T08:31:11Z" finished-at="2021-02-19T08:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:pom.irctc.testcases.TC007@5ec0a365]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-02-19T08:31:11Z" finished-at="2021-02-19T08:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC007@5ec0a365]" name="launchApp" is-config="true" duration-ms="16546" started-at="2021-02-19T08:31:13Z" finished-at="2021-02-19T08:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="FacebookSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.irctc.testcases.TC007@5ec0a365]" name="FacebookSignUp" duration-ms="11096" started-at="2021-02-19T08:31:29Z" data-provider="fetchData" finished-at="2021-02-19T08:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Murali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Krishnan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[student001@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[student001@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[India123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Jul]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1995]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FacebookSignUp -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC007@5ec0a365]" name="closeApp" is-config="true" duration-ms="1203" started-at="2021-02-19T08:31:40Z" finished-at="2021-02-19T08:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC007@5ec0a365]" name="launchApp" is-config="true" duration-ms="7948" started-at="2021-02-19T08:31:42Z" finished-at="2021-02-19T08:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="FacebookSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.irctc.testcases.TC007@5ec0a365]" name="FacebookSignUp" duration-ms="8953" started-at="2021-02-19T08:31:50Z" data-provider="fetchData" finished-at="2021-02-19T08:31:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Glenn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maxwell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[student002@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[student002@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[India456]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Feb]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1998]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FacebookSignUp -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC007@5ec0a365]" name="closeApp" is-config="true" duration-ms="792" started-at="2021-02-19T08:31:58Z" finished-at="2021-02-19T08:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pom.irctc.testcases.TC007@5ec0a365]" name="launchApp" is-config="true" duration-ms="8031" started-at="2021-02-19T08:31:59Z" finished-at="2021-02-19T08:32:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="FacebookSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pom.irctc.testcases.TC007@5ec0a365]" name="FacebookSignUp" duration-ms="8674" started-at="2021-02-19T08:32:07Z" data-provider="fetchData" finished-at="2021-02-19T08:32:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Steven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[student003@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[student003@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[India789]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1983]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FacebookSignUp -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pom.irctc.testcases.TC007@5ec0a365]" name="closeApp" is-config="true" duration-ms="1182" started-at="2021-02-19T08:32:16Z" finished-at="2021-02-19T08:32:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:pom.irctc.testcases.TC007@5ec0a365]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-02-19T08:32:17Z" finished-at="2021-02-19T08:32:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:pom.irctc.testcases.TC007@5ec0a365]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-02-19T08:32:17Z" finished-at="2021-02-19T08:32:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:pom.irctc.testcases.TC007@5ec0a365]" name="afterSuite" is-config="true" duration-ms="546" started-at="2021-02-19T08:32:17Z" finished-at="2021-02-19T08:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- pom.irctc.testcases.TC007 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

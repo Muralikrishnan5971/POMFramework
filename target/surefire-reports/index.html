@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>E:\Selenium Workbench\POM\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC007" hash-for-method="FacebookSignUp(Glenn, Maxwell, student002@gmail.com, student002@gmail.com, India456, 4, Feb, 1998)">FacebookSignUp(Glenn, Maxwell, student002@gmail.com, student002@gmail.com, India456, 4, Feb, 1998)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC007" hash-for-method="FacebookSignUp(Steven, Smith, student003@gmail.com, student003@gmail.com, India789, 14, May, 1983)">FacebookSignUp(Steven, Smith, student003@gmail.com, student003@gmail.com, India789, 14, May, 1983)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC007" hash-for-method="FacebookSignUp(Murali, Krishnan, student001@gmail.com, student001@gmail.com, India123, 1, Jul, 1995)">FacebookSignUp(Murali, Krishnan, student001@gmail.com, student001@gmail.com, India123, 1, Jul, 1995)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC006" hash-for-method="IndianFrro(TestUSer03, India@123, India@123,  What is the name of your favorite book?, Alchemist, Ashwin, Male,...)">IndianFrro(TestUSer03, India@123, India@123,  What is the name of your favorite book?, Alchemist, Ashwin, Male,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC006" hash-for-method="IndianFrro(TestUser02, India@123, India@123,  What is the name of your favorite book?, Alchemist, Ravichandran ...)">IndianFrro(TestUser02, India@123, India@123,  What is the name of your favorite book?, Alchemist, Ravichandran ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC006" hash-for-method="IndianFrro(TestUser01, Secret@123, Secret@123,  What is the name of your favorite book?, Alchemist, Muralikrish...)">IndianFrro(TestUser01, Secret@123, Secret@123,  What is the name of your favorite book?, Alchemist, Muralikrish...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC005" hash-for-method="IrctcBookHotelsGstValidation">IrctcBookHotelsGstValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC004" hash-for-method="IrctcBookHotelsOtpValidation">IrctcBookHotelsOtpValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC002" hash-for-method="IrctcBookYourCoach">IrctcBookYourCoach</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC001" hash-for-method="IrctcRegistration">IrctcRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC003" hash-for-method="IrctcSaloonMandatoryCheck">IrctcSaloonMandatoryCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC008" hash-for-method="OnlineUsVisaAppy(Muralikrishnan, Murali, MURALIKRISHNAN, Max, Krishnan, Student001@gmail.com, Student001@gmail.com, m...)">OnlineUsVisaAppy(Muralikrishnan, Murali, MURALIKRISHNAN, Max, Krishnan, Student001@gmail.com, Student001@gmail.com, m...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC008" hash-for-method="OnlineUsVisaAppy(Smith, Smith, STEVEN SMITH, Stev, Steven, Student003@gmail.com, Student003@gmail.com, smith@gmail.co...)">OnlineUsVisaAppy(Smith, Smith, STEVEN SMITH, Stev, Steven, Student003@gmail.com, Student003@gmail.com, smith@gmail.co...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC008" hash-for-method="OnlineUsVisaAppy(Logeshwaran, Logesh, LOGESHWARAN, Log, Waran, Student002@gmail.com, Student002@gmail.com, logesh@gma...)">OnlineUsVisaAppy(Logeshwaran, Logesh, LOGESHWARAN, Log, Waran, Student002@gmail.com, Student002@gmail.com, logesh@gma...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC009" hash-for-method="PanApply(MR., Ravichandran, Ravi, Ashwin, Bishen, Singh, Bedi, 9845563215, student003@gmail.com, Salary, 0709...)">PanApply(MR., Ravichandran, Ravi, Ashwin, Bishen, Singh, Bedi, 9845563215, student003@gmail.com, Salary, 0709...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC009" hash-for-method="PanApply(MR., Murali, Max, Krishnan, Ganesan, Deiva, Nayagam, 8870042519, student001@gmail.com, Salary, 01071...)">PanApply(MR., Murali, Max, Krishnan, Ganesan, Deiva, Nayagam, 8870042519, student001@gmail.com, Salary, 01071...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC009" hash-for-method="PanApply(MR., Bhuvaneshwar, Bhuvi, Kumar, Praveen, Piku, Kumar, 9875465231, student002@gmail.com, Salary, 150...)">PanApply(MR., Bhuvaneshwar, Bhuvi, Kumar, Praveen, Piku, Kumar, 9875465231, student002@gmail.com, Salary, 150...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC010" hash-for-method="PhpTravelsRegister(Murali, Krishnan, student001@gmail.com, 8870042519, Testing Pvt., Ltd, No 17, First cross, Kamaraj s...)">PhpTravelsRegister(Murali, Krishnan, student001@gmail.com, 8870042519, Testing Pvt., Ltd, No 17, First cross, Kamaraj s...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC010" hash-for-method="PhpTravelsRegister(Ravi, Ashwin, student003@gmail.com, 9656231245, Testing Pvt., Ltd, No 17, First cross, Kamaraj salai...)">PhpTravelsRegister(Ravi, Ashwin, student003@gmail.com, 9656231245, Testing Pvt., Ltd, No 17, First cross, Kamaraj salai...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="pom.irctc.testcases.TC010" hash-for-method="PhpTravelsRegister(Bhuvnesh, Kumar, student002@gmail.com, 9856562345, Testing Pvt., Ltd, No 17, First cross, Kamaraj sa...)">PhpTravelsRegister(Bhuvnesh, Kumar, student002@gmail.com, 9856562345, Testing Pvt., Ltd, No 17, First cross, Kamaraj sa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom.irctc.testcases.TC008</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OnlineUsVisaAppy(Muralikrishnan, Murali, MURALIKRISHNAN, Max, Krishnan, Student001@gmail.com, Student001@gmail.com, m...)">
+                  </a> <!-- OnlineUsVisaAppy(Muralikrishnan, Murali, MURALIKRISHNAN, Max, Krishnan, Student001@gmail.com, Student001@gmail.com, m...) -->
+                  <span class="method-name">OnlineUsVisaAppy</span>
+                  <span class="parameters">(Muralikrishnan, Murali, MURALIKRISHNAN, Max, Krishnan, Student001@gmail.com, Student001@gmail.com, murali@gmail.com, 1995, July, Pondicherry, Pondicherry, India, India, No120 MG Road, Kamaraj Salai, Pondicherry, Pondicherry, 605001, 8870042519, India, Pondicherry)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OnlineUsVisaAppy(Smith, Smith, STEVEN SMITH, Stev, Steven, Student003@gmail.com, Student003@gmail.com, smith@gmail.co...)">
+                  </a> <!-- OnlineUsVisaAppy(Smith, Smith, STEVEN SMITH, Stev, Steven, Student003@gmail.com, Student003@gmail.com, smith@gmail.co...) -->
+                  <span class="method-name">OnlineUsVisaAppy</span>
+                  <span class="parameters">(Smith, Smith, STEVEN SMITH, Stev, Steven, Student003@gmail.com, Student003@gmail.com, smith@gmail.com, 1989, September, Pondicherry, Pondicherry, India, India, No122 MG Road, Kamaraj Salai, Pondicherry, Pondicherry, 605001, 9558774123, India, Pondicherry)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OnlineUsVisaAppy(Logeshwaran, Logesh, LOGESHWARAN, Log, Waran, Student002@gmail.com, Student002@gmail.com, logesh@gma...)">
+                  </a> <!-- OnlineUsVisaAppy(Logeshwaran, Logesh, LOGESHWARAN, Log, Waran, Student002@gmail.com, Student002@gmail.com, logesh@gma...) -->
+                  <span class="method-name">OnlineUsVisaAppy</span>
+                  <span class="parameters">(Logeshwaran, Logesh, LOGESHWARAN, Log, Waran, Student002@gmail.com, Student002@gmail.com, logesh@gmail.com, 1999, April, Pondicherry, Pondicherry, India, India, No121 GM Road, Kamaraj Salai, Pondicherry, Pondicherry, 605001, 9887965421, India, Pondicherry)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom.irctc.testcases.TC004</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="IrctcBookHotelsOtpValidation">
+                  </a> <!-- IrctcBookHotelsOtpValidation -->
+                  <span class="method-name">IrctcBookHotelsOtpValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom.irctc.testcases.TC006</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="IndianFrro(TestUSer03, India@123, India@123,  What is the name of your favorite book?, Alchemist, Ashwin, Male,...)">
+                  </a> <!-- IndianFrro(TestUSer03, India@123, India@123,  What is the name of your favorite book?, Alchemist, Ashwin, Male,...) -->
+                  <span class="method-name">IndianFrro</span>
+                  <span class="parameters">(TestUSer03, India@123, India@123,  What is the name of your favorite book?, Alchemist, Ashwin, Male, 03/07/1995, Student, student003@gmail.com, 9234567890, 4567890, INDIA, Ashwin, 3, No 128, Misson Road,,  PUDUCHERRY,  PONDICHERRY AND AUREVILLE     ,  Individual House, Five Star, student003@gmail.com, 9234567890, 4567890, Ashwin, No 128, Misson Road,, PUDUCHERRY, 9C, student001@gmail.com, 4567890, 9234567890, Krishnan, No 123 GM Road, PUDUCHERRY, 9C, student002@gmail.com, 4567890, 9234567890, Kumar, No 212 Mission Road, PUDUCHERRY, 9C, student003@gmail.com, 4567890, 9234567890)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IndianFrro(TestUser02, India@123, India@123,  What is the name of your favorite book?, Alchemist, Ravichandran ...)">
+                  </a> <!-- IndianFrro(TestUser02, India@123, India@123,  What is the name of your favorite book?, Alchemist, Ravichandran ...) -->
+                  <span class="method-name">IndianFrro</span>
+                  <span class="parameters">(TestUser02, India@123, India@123,  What is the name of your favorite book?, Alchemist, Ravichandran , Male, 02/07/1995, Student, student002@gmail.com, 9234567890, 4567890, INDIA, Ravi, 3, No 121, GM Road,,  PUDUCHERRY,  PONDICHERRY AND AUREVILLE     ,  Individual House, Five Star, student002@gmail.com, 9234567890, 4567890, Ravi, No 121, GM Road,, PUDUCHERRY, 9C, student001@gmail.com, 4567890, 9234567890, Krishnan, No 123 GM Road, PUDUCHERRY, 9C, student002@gmail.com, 4567890, 9234567890, Kumar, No 212 Mission Road, PUDUCHERRY, 9C, student003@gmail.com, 4567890, 9234567890)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IndianFrro(TestUser01, Secret@123, Secret@123,  What is the name of your favorite book?, Alchemist, Muralikrish...)">
+                  </a> <!-- IndianFrro(TestUser01, Secret@123, Secret@123,  What is the name of your favorite book?, Alchemist, Muralikrish...) -->
+                  <span class="method-name">IndianFrro</span>
+                  <span class="parameters">(TestUser01, Secret@123, Secret@123,  What is the name of your favorite book?, Alchemist, Muralikrishnan, Male, 01/07/1995, Student, student001@gmail.com, 9234567890, 4567890, INDIA, Murali, 3, No 141, MG Road,,  PUDUCHERRY,  PONDICHERRY AND AUREVILLE     ,  Individual House, Five Star, student001@gmail.com, 9234567890, 4567890, Murali, No 141, MG Road,, PUDUCHERRY, 9C, student001@gmail.com, 4567890, 9234567890, Krishnan, No 123 GM Road, PUDUCHERRY, 9C, student002@gmail.com, 4567890, 9234567890, Kumar, No 212 Mission Road, PUDUCHERRY, 9C, student003@gmail.com, 4567890, 9234567890)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom.irctc.testcases.TC005</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="IrctcBookHotelsGstValidation">
+                  </a> <!-- IrctcBookHotelsGstValidation -->
+                  <span class="method-name">IrctcBookHotelsGstValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom.irctc.testcases.TC001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="IrctcRegistration">
+                  </a> <!-- IrctcRegistration -->
+                  <span class="method-name">IrctcRegistration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom.irctc.testcases.TC003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="IrctcSaloonMandatoryCheck">
+                  </a> <!-- IrctcSaloonMandatoryCheck -->
+                  <span class="method-name">IrctcSaloonMandatoryCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom.irctc.testcases.TC010</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PhpTravelsRegister(Murali, Krishnan, student001@gmail.com, 8870042519, Testing Pvt., Ltd, No 17, First cross, Kamaraj s...)">
+                  </a> <!-- PhpTravelsRegister(Murali, Krishnan, student001@gmail.com, 8870042519, Testing Pvt., Ltd, No 17, First cross, Kamaraj s...) -->
+                  <span class="method-name">PhpTravelsRegister</span>
+                  <span class="parameters">(Murali, Krishnan, student001@gmail.com, 8870042519, Testing Pvt., Ltd, No 17, First cross, Kamaraj salai, Pondicherry, Pondicherry, 605001, IN, Advertisement, 8870042519, P%ssword1234, P%ssword1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PhpTravelsRegister(Ravi, Ashwin, student003@gmail.com, 9656231245, Testing Pvt., Ltd, No 17, First cross, Kamaraj salai...)">
+                  </a> <!-- PhpTravelsRegister(Ravi, Ashwin, student003@gmail.com, 9656231245, Testing Pvt., Ltd, No 17, First cross, Kamaraj salai...) -->
+                  <span class="method-name">PhpTravelsRegister</span>
+                  <span class="parameters">(Ravi, Ashwin, student003@gmail.com, 9656231245, Testing Pvt., Ltd, No 17, First cross, Kamaraj salai, Pondicherry, Pondicherry, 605001, IN, Advertisement, 9845336577, P%ssword1234, P%ssword1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PhpTravelsRegister(Bhuvnesh, Kumar, student002@gmail.com, 9856562345, Testing Pvt., Ltd, No 17, First cross, Kamaraj sa...)">
+                  </a> <!-- PhpTravelsRegister(Bhuvnesh, Kumar, student002@gmail.com, 9856562345, Testing Pvt., Ltd, No 17, First cross, Kamaraj sa...) -->
+                  <span class="method-name">PhpTravelsRegister</span>
+                  <span class="parameters">(Bhuvnesh, Kumar, student002@gmail.com, 9856562345, Testing Pvt., Ltd, No 17, First cross, Kamaraj salai, Pondicherry, Pondicherry, 605001, IN, Advertisement, 9856230235, P%ssword1234, P%ssword1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom.irctc.testcases.TC009</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PanApply(MR., Ravichandran, Ravi, Ashwin, Bishen, Singh, Bedi, 9845563215, student003@gmail.com, Salary, 0709...)">
+                  </a> <!-- PanApply(MR., Ravichandran, Ravi, Ashwin, Bishen, Singh, Bedi, 9845563215, student003@gmail.com, Salary, 0709...) -->
+                  <span class="method-name">PanApply</span>
+                  <span class="parameters">(MR., Ravichandran, Ravi, Ashwin, Bishen, Singh, Bedi, 9845563215, student003@gmail.com, Salary, 07091999, No120 Fourth cross, Anna Salai, Pondicherry, Puducherry, 605001, INDIA, Aadhar Card issued by UIDAI(In Copy), VOTER ID card which is having complete Date of Birth (In Copy), Matriculation certificate or mark sheet of recognised board (In Copy), Copy of Aadhaar Card / Letter)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PanApply(MR., Murali, Max, Krishnan, Ganesan, Deiva, Nayagam, 8870042519, student001@gmail.com, Salary, 01071...)">
+                  </a> <!-- PanApply(MR., Murali, Max, Krishnan, Ganesan, Deiva, Nayagam, 8870042519, student001@gmail.com, Salary, 01071...) -->
+                  <span class="method-name">PanApply</span>
+                  <span class="parameters">(MR., Murali, Max, Krishnan, Ganesan, Deiva, Nayagam, 8870042519, student001@gmail.com, Salary, 01071995, No17 First cross, Kamaraj Salai, Pondicherry, Puducherry, 605001, INDIA, Aadhar Card issued by UIDAI(In Copy), VOTER ID card which is having complete Date of Birth (In Copy), Matriculation certificate or mark sheet of recognised board (In Copy), Copy of Aadhaar Card / Letter)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PanApply(MR., Bhuvaneshwar, Bhuvi, Kumar, Praveen, Piku, Kumar, 9875465231, student002@gmail.com, Salary, 150...)">
+                  </a> <!-- PanApply(MR., Bhuvaneshwar, Bhuvi, Kumar, Praveen, Piku, Kumar, 9875465231, student002@gmail.com, Salary, 150...) -->
+                  <span class="method-name">PanApply</span>
+                  <span class="parameters">(MR., Bhuvaneshwar, Bhuvi, Kumar, Praveen, Piku, Kumar, 9875465231, student002@gmail.com, Salary, 15051996, No19 Third cross, Mission Street, Pondicherry, Puducherry, 605001, INDIA, Aadhar Card issued by UIDAI(In Copy), VOTER ID card which is having complete Date of Birth (In Copy), Matriculation certificate or mark sheet of recognised board (In Copy), Copy of Aadhaar Card / Letter)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom.irctc.testcases.TC002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="IrctcBookYourCoach">
+                  </a> <!-- IrctcBookYourCoach -->
+                  <span class="method-name">IrctcBookYourCoach</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pom.irctc.testcases.TC007</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FacebookSignUp(Glenn, Maxwell, student002@gmail.com, student002@gmail.com, India456, 4, Feb, 1998)">
+                  </a> <!-- FacebookSignUp(Glenn, Maxwell, student002@gmail.com, student002@gmail.com, India456, 4, Feb, 1998) -->
+                  <span class="method-name">FacebookSignUp</span>
+                  <span class="parameters">(Glenn, Maxwell, student002@gmail.com, student002@gmail.com, India456, 4, Feb, 1998)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FacebookSignUp(Steven, Smith, student003@gmail.com, student003@gmail.com, India789, 14, May, 1983)">
+                  </a> <!-- FacebookSignUp(Steven, Smith, student003@gmail.com, student003@gmail.com, India789, 14, May, 1983) -->
+                  <span class="method-name">FacebookSignUp</span>
+                  <span class="parameters">(Steven, Smith, student003@gmail.com, student003@gmail.com, India789, 14, May, 1983)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FacebookSignUp(Murali, Krishnan, student001@gmail.com, student001@gmail.com, India123, 1, Jul, 1995)">
+                  </a> <!-- FacebookSignUp(Murali, Krishnan, student001@gmail.com, student001@gmail.com, India123, 1, Jul, 1995) -->
+                  <span class="method-name">FacebookSignUp</span>
+                  <span class="parameters">(Murali, Krishnan, student001@gmail.com, student001@gmail.com, India123, 1, Jul, 1995)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Selenium Workbench\POM\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pom.irctc.testcases.TC006&quot;/&gt;
+      &lt;class name=&quot;pom.irctc.testcases.TC005&quot;/&gt;
+      &lt;class name=&quot;pom.irctc.testcases.TC004&quot;/&gt;
+      &lt;class name=&quot;pom.irctc.testcases.TC003&quot;/&gt;
+      &lt;class name=&quot;pom.irctc.testcases.TC002&quot;/&gt;
+      &lt;class name=&quot;pom.irctc.testcases.TC001&quot;/&gt;
+      &lt;class name=&quot;pom.irctc.testcases.TC010&quot;/&gt;
+      &lt;class name=&quot;pom.irctc.testcases.TC009&quot;/&gt;
+      &lt;class name=&quot;pom.irctc.testcases.TC008&quot;/&gt;
+      &lt;class name=&quot;pom.irctc.testcases.TC007&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'IndianFrro')
+data.setCell(0, 2, 'pom.irctc.testcases.TC006')
+data.setCell(0, 3, 95050);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'IndianFrro')
+data.setCell(1, 2, 'pom.irctc.testcases.TC006')
+data.setCell(1, 3, 92505);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'IndianFrro')
+data.setCell(2, 2, 'pom.irctc.testcases.TC006')
+data.setCell(2, 3, 92203);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'IrctcBookHotelsGstValidation')
+data.setCell(3, 2, 'pom.irctc.testcases.TC005')
+data.setCell(3, 3, 64406);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'IrctcBookHotelsOtpValidation')
+data.setCell(4, 2, 'pom.irctc.testcases.TC004')
+data.setCell(4, 3, 62012);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'IrctcBookYourCoach')
+data.setCell(5, 2, 'pom.irctc.testcases.TC002')
+data.setCell(5, 3, 44652);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'IrctcRegistration')
+data.setCell(6, 2, 'pom.irctc.testcases.TC001')
+data.setCell(6, 3, 25903);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'OnlineUsVisaAppy')
+data.setCell(7, 2, 'pom.irctc.testcases.TC008')
+data.setCell(7, 3, 23510);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'OnlineUsVisaAppy')
+data.setCell(8, 2, 'pom.irctc.testcases.TC008')
+data.setCell(8, 3, 23146);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'OnlineUsVisaAppy')
+data.setCell(9, 2, 'pom.irctc.testcases.TC008')
+data.setCell(9, 3, 22988);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'IrctcSaloonMandatoryCheck')
+data.setCell(10, 2, 'pom.irctc.testcases.TC003')
+data.setCell(10, 3, 21044);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'PanApply')
+data.setCell(11, 2, 'pom.irctc.testcases.TC009')
+data.setCell(11, 3, 10960);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'PanApply')
+data.setCell(12, 2, 'pom.irctc.testcases.TC009')
+data.setCell(12, 3, 10824);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'PanApply')
+data.setCell(13, 2, 'pom.irctc.testcases.TC009')
+data.setCell(13, 3, 10810);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'PhpTravelsRegister')
+data.setCell(14, 2, 'pom.irctc.testcases.TC010')
+data.setCell(14, 3, 10505);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'PhpTravelsRegister')
+data.setCell(15, 2, 'pom.irctc.testcases.TC010')
+data.setCell(15, 3, 10016);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'PhpTravelsRegister')
+data.setCell(16, 2, 'pom.irctc.testcases.TC010')
+data.setCell(16, 3, 9843);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'FacebookSignUp')
+data.setCell(17, 2, 'pom.irctc.testcases.TC007')
+data.setCell(17, 3, 7709);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'FacebookSignUp')
+data.setCell(18, 2, 'pom.irctc.testcases.TC007')
+data.setCell(18, 3, 7623);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'FacebookSignUp')
+data.setCell(19, 2, 'pom.irctc.testcases.TC007')
+data.setCell(19, 3, 7544);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">36 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pom.irctc.testcases.TC008</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pom.irctc.testcases.TC004</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pom.irctc.testcases.TC005</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pom.irctc.testcases.TC001</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pom.irctc.testcases.TC003</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pom.irctc.testcases.TC010</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pom.irctc.testcases.TC009</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pom.irctc.testcases.TC002</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pom.irctc.testcases.TC007</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.irctc.testcases.TC006</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">149 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">227 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">1040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IndianFrro(TestUser01, Secret@123, Secret@123,  What is the name of your favorite book?, Alchemist, Muralikrish...)</span>
+                <span class="method-start">12537 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">107593 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">108303 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IndianFrro(TestUser02, India@123, India@123,  What is the name of your favorite book?, Alchemist, Ravichandran ...)</span>
+                <span class="method-start">112830 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">205033 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">205819 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IndianFrro(TestUSer03, India@123, India@123,  What is the name of your favorite book?, Alchemist, Ashwin, Male,...)</span>
+                <span class="method-start">209366 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">301871 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">302552 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.irctc.testcases.TC005</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">302552 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">302552 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IrctcBookHotelsGstValidation</span>
+                <span class="method-start">312008 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">376415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">377250 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.irctc.testcases.TC004</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">377251 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">377252 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IrctcBookHotelsOtpValidation</span>
+                <span class="method-start">385817 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">447829 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">448620 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.irctc.testcases.TC003</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">448621 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">448622 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IrctcSaloonMandatoryCheck</span>
+                <span class="method-start">455842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">476886 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">477633 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.irctc.testcases.TC002</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">477634 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">477634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IrctcBookYourCoach</span>
+                <span class="method-start">510711 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">555364 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">556086 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.irctc.testcases.TC001</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">556087 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">556087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IrctcRegistration</span>
+                <span class="method-start">593823 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">619727 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">620532 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.irctc.testcases.TC010</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">620533 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">620689 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PhpTravelsRegister(Murali, Krishnan, student001@gmail.com, 8870042519, Testing Pvt., Ltd, No 17, First cross, Kamaraj s...)</span>
+                <span class="method-start">636730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">646574 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">647252 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PhpTravelsRegister(Bhuvnesh, Kumar, student002@gmail.com, 9856562345, Testing Pvt., Ltd, No 17, First cross, Kamaraj sa...)</span>
+                <span class="method-start">653945 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">663961 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">665265 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PhpTravelsRegister(Ravi, Ashwin, student003@gmail.com, 9656231245, Testing Pvt., Ltd, No 17, First cross, Kamaraj salai...)</span>
+                <span class="method-start">672483 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">682988 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">683812 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.irctc.testcases.TC009</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">683812 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">683911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PanApply(MR., Murali, Max, Krishnan, Ganesan, Deiva, Nayagam, 8870042519, student001@gmail.com, Salary, 01071...)</span>
+                <span class="method-start">688853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">699813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">700491 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PanApply(MR., Bhuvaneshwar, Bhuvi, Kumar, Praveen, Piku, Kumar, 9875465231, student002@gmail.com, Salary, 150...)</span>
+                <span class="method-start">705199 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">716023 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">716703 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PanApply(MR., Ravichandran, Ravi, Ashwin, Bishen, Singh, Bedi, 9845563215, student003@gmail.com, Salary, 0709...)</span>
+                <span class="method-start">721242 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">732053 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">732708 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.irctc.testcases.TC008</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">732709 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">732867 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OnlineUsVisaAppy(Muralikrishnan, Murali, MURALIKRISHNAN, Max, Krishnan, Student001@gmail.com, Student001@gmail.com, m...)</span>
+                <span class="method-start">739590 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">763100 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">763747 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OnlineUsVisaAppy(Logeshwaran, Logesh, LOGESHWARAN, Log, Waran, Student002@gmail.com, Student002@gmail.com, logesh@gma...)</span>
+                <span class="method-start">770088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">793234 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">793885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OnlineUsVisaAppy(Smith, Smith, STEVEN SMITH, Stev, Steven, Student003@gmail.com, Student003@gmail.com, smith@gmail.co...)</span>
+                <span class="method-start">799639 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">822627 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">823273 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.irctc.testcases.TC007</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">823273 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">823373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FacebookSignUp(Murali, Krishnan, student001@gmail.com, student001@gmail.com, India123, 1, Jul, 1995)</span>
+                <span class="method-start">828600 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">836144 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">837103 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FacebookSignUp(Glenn, Maxwell, student002@gmail.com, student002@gmail.com, India456, 4, Feb, 1998)</span>
+                <span class="method-start">841885 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">849508 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">850188 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FacebookSignUp(Steven, Smith, student003@gmail.com, student003@gmail.com, India789, 14, May, 1983)</span>
+                <span class="method-start">854985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">862694 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">863945 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pom.irctc.testcases.TC006</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">863945 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">864119 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
