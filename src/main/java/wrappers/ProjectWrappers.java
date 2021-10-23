@@ -29,6 +29,8 @@ public class ProjectWrappers extends GenericWrappers{
 		loadObjects();
 	}
 	
+	//@BeforeClass
+	
 	@BeforeMethod
 	public void launchApp() {
 
